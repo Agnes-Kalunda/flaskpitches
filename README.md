@@ -6,8 +6,19 @@ Agnes-kalunda
 
 ## Behavior Driven Development
 
-Register to be a user	Your email : jane@doe.com Username : janedoe Password : doe	New user is registered
-User Log in	Your email : janedoe@mail.com Password : 1234	Logged in
+* Register to be a user	
+* Your email : jane@doe.com 
+* Username : janedoe 
+* Password : doe	
+# New user is registered
+
+
+
+
+# User Log in	
+* Your email : janedoe@mail.com 
+* Password : 1234	
+ # Logged in
 
 * Create a Pitch	Click New Pitch	Authenticated User is redirected to a form page to create a pitch
 View a pitch	Click on a pitch's title	Redirected to a page that has the the pitch
