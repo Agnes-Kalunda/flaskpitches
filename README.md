@@ -10,7 +10,7 @@ Agnes-kalunda
 * Your email : jane@doe.com 
 * Username : janedoe 
 * Password : doe	
-# New user is registered
+  * New user is registered
 
 
 
@@ -18,7 +18,7 @@ Agnes-kalunda
 # User Log in	
 * Your email : janedoe@mail.com 
 * Password : 1234	
- # Logged in
+  * Logged in
 
 * Create a Pitch	Click New Pitch	Authenticated User is redirected to a form page to create a pitch
 View a pitch	Click on a pitch's title	Redirected to a page that has the the pitch
