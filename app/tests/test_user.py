@@ -3,7 +3,7 @@ from app.models import User
 
 class TestUser(unittest.TestCase):
     def setUp(self):
-        self.user_John = User(username='John', password="angel", email="john@gmail.com", id=1, bio="Iam a junior developer", profile_pic_path="app/static/photos")
+        self.user_John = User(username='moringa', password="access", email="john@gmail.com", id=1, bio="Iam a junior developer", profile_pic_path="app/static/photos")
 
     def tearDown(self):
         User.query.delete()
