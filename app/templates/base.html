@@ -20,18 +20,17 @@
         <li class="nav-link"><a href="{{url_for('users.logout')}}">Log out</a></li>
         <li class="nav-link"><a href="{{url_for('app.login')}}">Login</a></li>
         <li class="nav-link"><a href="{{url_for('app.register')}}">Register</a></li>
-        
-        
-    </ul>
-   
 
+
+    </ul>
     {% block content %}
 
+
+    {% endblock %} 
     {% block styles %}
     {{ super() }}
     {{ simplemde.css }}
     {{ simplemde.js }}
     {% endblock %} 
 </body>
-
 </html>

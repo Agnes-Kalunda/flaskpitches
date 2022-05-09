@@ -19,8 +19,8 @@ def login():
     return render_template('auth/login.html', title=title)
 @auth.route('/register', methods=["GET","POST"])
 def register():
-@@ -19,4 +27,3 @@ def register():
-        return redirect(url_for('auth.login'))
+  @@ -19,4 +27,3 @@ def register():
+    return redirect(url_for('auth.login'))
     title = 'Pitch | New Account'
     return render_template('/auth/register.html', registration_form=form)
 
