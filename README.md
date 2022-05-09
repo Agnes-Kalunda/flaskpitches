@@ -27,7 +27,7 @@ Update profile	click your name while logged in	Redirected to a profile page to s
 
 ## Technologies Used
 
-* Python3.6
+* Python3.8
 * Flask
 * Bootstrap
 * Postgres Database
