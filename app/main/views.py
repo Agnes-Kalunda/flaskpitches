@@ -4,7 +4,7 @@ from flask_login import login_required, current_user
 from ..models import User, Pitch, Comment
 from .forms import UpdateProfile, PitchForm, CommentForm
 from .. import db, photos
-import markdown2
+import markdown2 
 
 @main.route('/')
 def index():
