@@ -4,6 +4,9 @@
 ## Built By 
 Agnes-kalunda
 
+## Description
+This is a flask web app that allows users to post pitches and comment on other users' pitches after signup/login
+
 ## Behavior Driven Development
 
 * Register to be a user	
