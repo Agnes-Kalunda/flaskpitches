@@ -26,9 +26,9 @@ class User(UserMixin,db.Model):
         raise AttributeError('You cannot read the password attribute.')
     @password.setter
     def password(self, password):
-        self.password_hash = generate_password_hash(password)
+        self.password_secure = generate_password_hash(password)
     def verify_password(self, password):
-        return check_password_hash(self.password_hash, password)
+        return check_password_hash(self.password_secure, password)
 class Pitch(UserMixin,db.Model):
     __tablename__ = 'pitch_table'
     id = db.Column(db.Integer, primary_key=True)
@@ -48,6 +48,7 @@ class Pitch(UserMixin,db.Model):
         db.session.commit()
 class Comment(db.Model):
     __tablename__ = "comments"
+    
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String)
     comment = db.Column(db.String)  #comment a user gives to a post
