@@ -16,7 +16,7 @@ class Config:
         pass
 class ProdConfig(Config):
     # SQLALCHEMY_DATABASE_URI = os.environ.get("postgresql+psycopg2://moringa:access@localhost/pitches")  
-    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")  
+    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL").replaced.replace("://", "ql://", 1) 
     DEBUG= True
 
 
